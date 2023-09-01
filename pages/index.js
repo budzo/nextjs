@@ -5,7 +5,7 @@ import { getAllPosts } from '../lib/posts';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import NavbarExample from '../components/navbar';
+import NavbarExample from '../components/Navbar';
 import FeaturedImage from '../components/FeaturedImage';
 import CardExample from '../components/Card';
 import { getInfo } from '../lib/info';

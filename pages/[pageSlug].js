@@ -1,5 +1,5 @@
 import Head from "next/head";
-import NavbarExample from "../components/navbar";
+import NavbarExample from "../components/Navbar";
 import { getPageSlugs, getSinglePage } from "../lib/pages";
 
 export async function getStaticProps({params}) {
