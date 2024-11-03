@@ -1,0 +1,26 @@
+.latestNews .latestNewsContainer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1440px;
+}
+
+.latestNews h1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 10px;
+    padding: 1rem 0.5rem;
+    margin-bottom: 0;
+    color: #e0e0e0;
+
+    @media (min-width: 768px) {
+        font-size: 4rem;
+    }
+}
+
+.latestNews .latestNewsPost {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0.5rem auto;
+}

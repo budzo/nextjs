@@ -1,5 +1,5 @@
 import Head from "next/head";
-import NavbarExample from "../../components/Navbar";
+import MainNavbar from "../../components/MainNavbar";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -33,7 +33,7 @@ export async function getStaticPaths() {
 export default function Post({ postData }) {
     return (
         <>
-        <NavbarExample />
+        <MainNavbar />
             <Head>
                 <title key="pageTitle">{postData.title}</title>
                 <meta name="description" content={postData.excerpt} key="metaDescription"></meta>

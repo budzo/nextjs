@@ -1,0 +1,99 @@
+body {
+    background: #fff url(../public/images/x-bg-12.svg) center center no-repeat fixed;
+    background-size: cover;
+    color: #1f1f1f;
+    padding-top: 89px;
+}
+
+a {
+    color: #000;
+    &:hover {
+        color: #333;
+    }
+}
+
+.navbar {
+    padding: .5rem 1rem;
+}
+
+.navbar.bg-light {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+.navbar .navbar-brand {
+    width: 200px;
+}
+.navbar .navbar-nav .nav-link {
+    font-size: 1.3rem;
+}
+@media (min-width: 992px) {
+    .navbar .navbar-nav .nav-link {
+        font-size: 1.3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media (min-width: 1200px) {
+    .navbar .navbar-nav .nav-link {
+        font-size: 1.75rem;
+    }
+}
+
+.sponsors1330,
+.sponsorsdemon,
+.sponsorsgnome,
+.sponsorsjerovetz,
+.sponsorsjet,
+.sponsorskroll,
+.sponsorsnicks,
+.sponsorsoutback,
+.sponsorsstodolas,
+.sponsorsswift,
+.sponsorsvlies {
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url(../public/images/sponsors.png);
+}
+.sponsors1330 {
+    background-position: 0 0;
+    background-size: 100%;
+}
+.sponsorsdemon {
+    background-position: 0 5.895489%;
+    background-size: 100%;
+}
+.sponsorsgnome {
+    background-position: 0 17.0347%;
+    background-size: 100%;
+}
+.sponsorsjerovetz {
+    background-position: 0 28.865979%;
+    background-size: 100%;
+}
+.sponsorsjet {
+    background-position: 0 41.554836%;
+    background-size: 100%;
+}
+.sponsorskroll {
+    background-position: 0 55.773619%;
+    background-size: 100%;
+}
+.sponsorsnicks {
+    background-position: 0 64.047317%;
+    background-size: 100%;
+}
+.sponsorsoutback {
+    background-position: 0 72.493345%;
+    background-size: 100%;
+}
+.sponsorsstodolas {
+    background-position: 0 85.58972%;
+    background-size: 100%;
+}
+.sponsorsswift {
+    background-position: 0 92.108613%;
+    background-size: 100%;
+}
+.sponsorsvlies {
+    background-position: 0 100%;
+    background-size: 100%;
+}

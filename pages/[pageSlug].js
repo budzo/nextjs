@@ -1,5 +1,5 @@
 import Head from "next/head";
-import NavbarExample from "../components/Navbar";
+import MainNavbar from "../components/MainNavbar";
 import { getPageSlugs, getSinglePage } from "../lib/pages";
 
 export async function getStaticProps({params}) {
@@ -30,7 +30,7 @@ export async function getStaticPaths() {
 export default function Page({ pageData }) {
     return (
         <>
-        <NavbarExample />
+        <MainNavbar />
             <Head>
                 <title>{pageData.title}</title>
             </Head>
