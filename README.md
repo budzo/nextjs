@@ -16,7 +16,7 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/budzo/nextjs.git
 2. Navigate to the project folder
    ```bash
    cd nextjs
